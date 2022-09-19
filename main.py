@@ -64,22 +64,24 @@ print(newList2)
 ###### print out the first item in the list
 print(newList2[0])
 ###### remove the last item of the new list
-
+newList2.pop()
 ###### print the new list out without the last item
-
+print(newList2)
 ###### add three more items to the end of the list
-
+hi = ["hi","bot","trash"]
+newList3 = newList2 + hi
 ###### print the last item in the new list
-
+print(newList3)
 ###### sort the list
-
+#print(luckynumbers.sort)
 ###### find a way to insert a new item at the 3rd position of the list
-
+newList3.insert(3,"hello")
 ###### print the new list out
-
+print(newList3)
 ##### reverse the list
-
+newList3.reverse
 ###### print the new list out
+print(newList3)
 ###### print out the length of the new list
 
 #####################################challenge 2#######################################################
