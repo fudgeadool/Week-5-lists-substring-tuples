@@ -31,10 +31,17 @@ my_list.insert(3,"bobba bobba")
 print(my_list)
 my_list.insert(1,"sup")
 print(my_list)
+
+my_list2 = ["july", "terrence","jugga"," star treck"]
+#join the my_list1 with my_list2 in a new variable
+#called my list3 and print it out
+my_list3 = my_list + my_list2
+print(my_list3)
+
+
 # Add the element "motorcycle" to the following list of means of transportation:
 
-# transportation_means = ["plane", "car", "ship", "bicycle"]
-# transportation_means.append("motorcycle")
+
 # #append adds an element to the end
 # print(transportation_means)
 # transportation_means.remove("car")
@@ -51,11 +58,11 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
-
+newList2 = luckyNumbers + friends
 ###### print the new list out
-#print(newList2)
+print(newList2)
 ###### print out the first item in the list
-
+print(newList2[0])
 ###### remove the last item of the new list
 
 ###### print the new list out without the last item
